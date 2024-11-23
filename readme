@@ -1,0 +1,9 @@
+Application with simple API
+
+Build the docker image
+
+docker build -t kube-api .
+
+Run docker container
+
+docker run -d --name kube-api-container -p 80:80 kube-api
