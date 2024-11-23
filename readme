@@ -7,3 +7,9 @@ docker build -t kube-api .
 Run docker container
 
 docker run -d --name kube-api-container -p 80:80 kube-api
+
+docker 
+
+
+Deploy Kubernetes pods
+kubectl apply -f api.yaml -n kube-api-ns
