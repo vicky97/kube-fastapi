@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: localhost:5000/kube-api
+        image: vignesh403/kube-fastapi:latest
+        # imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
 ---
