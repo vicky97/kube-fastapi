@@ -17,6 +17,7 @@ spec:
       containers:
       - name: fastapi-container
         image: kube-api:latest
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
 ---
